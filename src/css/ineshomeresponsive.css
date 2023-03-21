@@ -1,0 +1,23 @@
+@media (max-width: 531px) {
+    .navbar {
+        padding: 30px 10px;
+    }
+
+    .ineshome-hero-btn-bg {
+        margin-bottom: 10px;
+    }
+
+    .newsletter-form-field input {
+        margin: 10px 0px;
+    }
+
+    .ines-hero-content {
+        margin-bottom: 10px;
+    }
+}
+
+/* @media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {} */

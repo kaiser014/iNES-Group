@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Hero Section */
+.ineshome-hero-section {
+    padding: 70px 0;
+}
+
+.ineshome-hero-btn-bg {
+    background-color: #EB3838;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ineshome-hero-btn-bg h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ines-hero-content {
+    background-color: #E8E8E8;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.ines-hero-content h1 {
+    color: #EB3838;
+    font-weight: 800;
+    opacity: .6;
+}
+
+.ines-hero-content-list {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.ines-hero-content-list li {
+    margin-bottom: 10px;
+}
+
+.video-frame {
+    width: 100%;
+    height: 300px;
+}
+
+.ineshome-hero-button {
+    text-align: center;
+    width: 100%;
+}
+
+.hero-btn1,
+.hero-btn2 {
+    background-color: #EB3838;
+    height: 90px;
+    width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.hero-btn1 span,
+.hero-btn2 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.hero-btn1 {
+    font-size: 16px;
+}
+
+.btn-text {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.hero-btn2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* About Product Section */
+.about-product-section {
+    padding: 40px 0;
+}
+
+.about-product-bg {
+    border-radius: 10px;
+    padding: 50px 100px;
+    background-color: #E8E8E8;
+}
+
+.about-product-heading h1 {
+    font-size: 50px;
+    color: #EB3838;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.about-product-list ul {
+    list-style: none;
+}
+
+.about-product-list ul li {
+    margin-bottom: 5px;
+}
+
+/* Newsletter Section */
+.newsletter-bg {
+    background-color: #EB3838;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.newsletter-title h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.newsletter-form-field {
+    width: 100%;
+}
+
+.newsletter-form-field input {
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+
+.newsletter-form-field input::placeholder {
+    color: #a0a0a0;
+}
+
+.newsletter-btn {
+    background-color: #fff;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

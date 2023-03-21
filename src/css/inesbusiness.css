@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.inesbusiness-body {
+    background-color: #000;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.search-field {
+    height: 32px;
+    width: 202px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.search-field::placeholder {
+    color: #fff;
+}
+
+.navbarSearchButton {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarUser i {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+/* Navbar Toggoler */
+.navbar-toggler {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+
+.ines-hero-content {
+    background-color: #171717;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.ines-hero-content h1 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.ines-hero-content p {
+    color: #fff;
+}
+
+.ines-hero-content-list li {
+    color: #fff;
+}
+
+.testimonial-card-title {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.testimonial-card-text {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.testimonial-section-heading {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.testimonial-section-tagline {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.footer-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #171717;
+}
+
+.footer-contact h1,
+.footer-usefullLink h1,
+.footer-socialLink h1 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact-content i {
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.contact-content p {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.usefullLink a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.socialLink-icon {
+    color: #fff;
+}

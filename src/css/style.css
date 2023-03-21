@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "Beauthy Flower";
+    src: url(../fonts/Beauthy\ Flower.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* Navbar */
+.navbar {
+    padding: 30px 0px;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    color: #EB3838;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 22px;
+}
+
+.nav-link:hover {
+    color: #ce3131;
+}
+
+.navbarSearch {
+    margin-left: 60px;
+    position: relative;
+}
+
+.search-field {
+    height: 32px;
+    width: 202px;
+    border-radius: 50px;
+    border: 2px solid #EB3838;
+}
+
+.search-field::placeholder {
+    color: #EB3838;
+}
+
+.navbarSearchButton {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    color: #EB3838;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarUser i {
+    margin-left: 30px;
+    color: #EB3838;
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid #EB3838;
+    border-radius: 100%;
+}
+
+/* Navbar Toggoler */
+.navbar-toggler {
+    background-color: transparent;
+    border: 2px solid #EB3838;
+}
+
+.navbar-toggler-icon {
+    color: #EB3838;
+}
+
+.navbar-toggler-icon i {
+    font-size: 30px;
+}
+
+/* Hero Section Start Here */
+.hero-section {
+    padding: 70px 0;
+}
+
+.hero-content {
+    background-color: #1F1A17;
+    position: relative;
+    padding: 45px 50px;
+}
+
+.hero-content-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #EB3838;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero-content-details h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #EB3838;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.hero-content-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.heroimage1 {
+    width: 270px;
+    height: auto;
+}
+
+.heroimage2 {
+    width: 250px;
+    height: auto;
+}
+
+/* Testimonial */
+.testimonial-section {
+    padding: 70px 0;
+}
+
+.testimonial-section-heading {
+    color: #EB3838;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Beauthy FLower";
+}
+
+.testimonial-section-tagline {
+    color: #EB3838;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonial {
+    padding-top: 30px;
+}
+
+.testimonial-card {
+    padding: 10px;
+}
+
+.testimonial-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.testimonial-card-title {
+    color: #EB3838;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.testimonial-card-text {
+    font-size: 16px;
+    color: #EB3838;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+}
+
+.qoute1 {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    font-size: 35px;
+    transform: translateY(0, 68px);
+}
+
+.qoute2 {
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+    font-size: 35px;
+    transform: translateY(0, 82px);
+}
+
+/* Partner Sction */
+.partner-header h1 {
+    color: #EB3838;
+    font-size: 50px;
+    font-family: "Beauthy FLower";
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.partner-header h3 {
+    color: #EB3838;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin: 8px 0;
+}
+
+/* Slider */
+.client-logo {
+    text-align: -moz-center;
+}
+
+.client-logo img {
+    width: 50% !important;
+    height: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
+
+/* Footer Section */
+.footer-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #E8E8E8;
+}
+
+.footer-contact h1,
+.footer-usefullLink h1,
+.footer-socialLink h1 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.contact-content i {
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.contact-content p {
+    display: inline;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.usefullLink {
+    margin-bottom: 8px;
+}
+
+.usefullLink a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.socialLink-icon {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/* Chatbot */
+.chatbot-section {
+    position: relative;
+}
+
+.chatbot {
+    top: -100px;
+    right: 0;
+    top: -50px;
+    transform: translateY(0, 50px);
+    position: absolute;
+    text-align: center;
+    background-color: #EB3838;
+    width: 100px;
+    height: 100px;
+}
+
+.chatbot img {
+    width: 100%;
+    height: auto;
+}
